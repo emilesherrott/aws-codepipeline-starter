@@ -18,7 +18,7 @@ phases:
   post_build:
     commands:
       - echo "Pushing Docker Image..."
-      - docker push emilesherrott/arsenal-db:latest .
+      - docker push emilesherrott/arsenal-db:latest
     
 artifacts:
   files:
